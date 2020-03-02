@@ -1,9 +1,11 @@
-Package: self.ehumphrey.nomorebadgenumbers
+Package: com.humphreytweaks.nomorebadgenumbers
 Name: NoMoreBadgeNumbers
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Remove the numbers on notification badges
 Maintainer: Ethan Humphrey
 Author: Ethan Humphrey
 Section: Tweaks
+Depiction: https://ethantheinnovator.github.io/repo/depictions/?p=com.humphreytweaks.nomorebadgenumbers
+Icon: file://logo.png

@@ -67,17 +67,18 @@ static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _
 
 
 static void _logos_method$_ungrouped$SBIconView$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL SBIconView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd) {
-
-
+	
 	_logos_orig$_ungrouped$SBIconView$layoutSubviews(self, _cmd);
-
 	
 	UIView *accessoryView = MSHookIvar<UIView *>(self, "_accessoryView");
 	if(accessoryView && [accessoryView isKindOfClass:_logos_static_class_lookup$SBIconBadgeView()]) {
+		
 		UIView *textView = MSHookIvar<UIView *>(accessoryView, "_textView");
 		if (textView) {
 			[textView setHidden:true];
 		}
+		
+		
 		CGRect frame = accessoryView.frame;
 		frame.size.width = frame.size.height;
 		accessoryView.frame = frame;
@@ -86,4 +87,4 @@ static void _logos_method$_ungrouped$SBIconView$layoutSubviews(_LOGOS_SELF_TYPE_
     
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$SBIconView = objc_getClass("SBIconView"); MSHookMessageEx(_logos_class$_ungrouped$SBIconView, @selector(layoutSubviews), (IMP)&_logos_method$_ungrouped$SBIconView$layoutSubviews, (IMP*)&_logos_orig$_ungrouped$SBIconView$layoutSubviews);} }
-#line 61 "NoMoreBadgeNumbers.xm"
+#line 62 "NoMoreBadgeNumbers.xm"
