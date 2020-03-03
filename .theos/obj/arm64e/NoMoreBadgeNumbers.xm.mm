@@ -24,7 +24,7 @@
 #define _LOGOS_RETURN_RETAINED
 #endif
 
-@class SBIconView; @class SBIconBadgeView; 
+@class SBIconBadgeView; @class SBIconView; 
 static void (*_logos_orig$_ungrouped$SBIconView$layoutSubviews)(_LOGOS_SELF_TYPE_NORMAL SBIconView* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$SBIconView$layoutSubviews(_LOGOS_SELF_TYPE_NORMAL SBIconView* _LOGOS_SELF_CONST, SEL); 
 static __inline__ __attribute__((always_inline)) __attribute__((unused)) Class _logos_static_class_lookup$SBIconBadgeView(void) { static Class _klass; if(!_klass) { _klass = objc_getClass("SBIconBadgeView"); } return _klass; }
 #line 5 "NoMoreBadgeNumbers.xm"
