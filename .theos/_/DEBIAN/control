@@ -7,6 +7,6 @@ Maintainer: Ethan Humphrey
 Author: Ethan Humphrey
 Section: Tweaks
 Depiction: https://ethantheinnovator.github.io/repo/depictions/?p=com.humphreytweaks.nomorebadgenumbers
-Icon: file://logo.png
-Version: 1.0.1-1+debug
+Icon: https://ethantheinnovator.github.io/repo/assets/nomorebadgenumbers.png
+Version: 1.1
 Installed-Size: 136

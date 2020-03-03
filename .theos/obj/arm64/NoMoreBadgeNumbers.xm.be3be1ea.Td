@@ -1,5 +1,5 @@
-/Users/ethanhumphrey/Documents/Coding/JailbreakTweaks/nomorebadgenumbers/.theos/obj/debug/arm64/NoMoreBadgeNumbers.xm.d8cdf5e7.o: \
-  /Users/ethanhumphrey/Documents/Coding/JailbreakTweaks/nomorebadgenumbers/.theos/obj/debug/arm64/NoMoreBadgeNumbers.xm.mm \
+/Users/ethanhumphrey/Documents/Coding/JailbreakTweaks/nomorebadgenumbers/.theos/obj/arm64/NoMoreBadgeNumbers.xm.be3be1ea.o: \
+  /Users/ethanhumphrey/Documents/Coding/JailbreakTweaks/nomorebadgenumbers/.theos/obj/arm64/NoMoreBadgeNumbers.xm.mm \
   /Users/ethanhumphrey/theos/Prefix.pch \
   /Users/ethanhumphrey/theos/vendor/include/_Prefix/BackwardsCompat.h \
   /Users/ethanhumphrey/theos/vendor/include/_Prefix/IOSMacros.h \

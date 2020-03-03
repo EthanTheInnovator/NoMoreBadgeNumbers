@@ -54,7 +54,9 @@ the generation of a class list and an automatic constructor.
 		
 		// Badges remain the same size, so update the frame to be circular
 		CGRect frame = accessoryView.frame;
+		CGFloat widthDifference = frame.size.height - frame.size.width;
 		frame.size.width = frame.size.height;
+		frame.origin.x = frame.origin.x + (widthDifference/2);
 		accessoryView.frame = frame;
 	}
 }
